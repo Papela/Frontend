@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "../globals.css";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
@@ -114,6 +115,12 @@ export default async function LocaleLayout({ children, params }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen bg-white dark:bg-gray-900`}
       >
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5588463471166549"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         <Navbar locale={locale} />
         <main className="flex-grow">{children}</main>
         <Footer locale={locale} />
