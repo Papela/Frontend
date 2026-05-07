@@ -1,9 +1,10 @@
 /**
- * Configuración personalizada para next-sitemap con rutas multilenguaje y rutas dinámicas.
+ * Configuración personalizada para next-sitemap con rutas multilenguaje.
+ * Las rutas dinámicas (status/[id], download/[id]) se excluyen del sitemap
+ * y se bloquean en robots.txt para cumplir con las políticas de AdSense
+ * (no indexar pantallas sin contenido del editor).
  */
 const locales = ["es", "en", "hi", "ar"];
-
-const dynamicIds = ["1"];
 
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL || "https://mcworldcompressor.vercel.app";
@@ -11,12 +12,12 @@ const siteUrl =
 module.exports = {
   siteUrl,
   generateRobotsTxt: true,
+  exclude: ["/*/status/*", "/*/download/*"],
   robotsTxtOptions: {
     transformRobotsTxt: async (_, robotsTxt) => {
-      // Solo Sitemap, sin Host
       const hostUrl = siteUrl.replace(/^https?:\/\//, "");
       const sitemapUrl = `https://${hostUrl}/sitemap.xml`;
-      return `# *\nUser-agent: *\nAllow: /\n\n# Sitemaps\nSitemap: ${sitemapUrl}`;
+      return `# *\nUser-agent: *\nAllow: /\nDisallow: /*/status/\nDisallow: /*/download/\n\n# Sitemaps\nSitemap: ${sitemapUrl}`;
     },
   },
   additionalPaths: async (config) => {
@@ -24,10 +25,10 @@ module.exports = {
     locales.forEach((locale) => {
       paths.push({ loc: `/${locale}` });
       paths.push({ loc: `/${locale}/upload` });
-      dynamicIds.forEach((id) => {
-        paths.push({ loc: `/${locale}/download/${id}` });
-        paths.push({ loc: `/${locale}/status/${id}` });
-      });
+      paths.push({ loc: `/${locale}/about` });
+      paths.push({ loc: `/${locale}/guide` });
+      paths.push({ loc: `/${locale}/privacy` });
+      paths.push({ loc: `/${locale}/terms` });
     });
     return paths;
   },

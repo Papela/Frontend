@@ -190,7 +190,14 @@
   },
   "footer": {
     "developedBy": "Developed by",
-    "rights": "All rights reserved"
+    "rights": "All rights reserved",
+    "project": "Project",
+    "resources": "Resources",
+    "legal": "Legal",
+    "about": "About",
+    "guide": "Compression guide",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
   },
   "notFound": {
     "title": "Page not found",
@@ -224,5 +231,171 @@
     "goHome": "Go home",
     "goBack": "Go back",
     "uploadAnother": "Upload another world"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated",
+    "effectiveDate": "May 2026",
+    "sections": [
+      {
+        "heading": "1. Introduction",
+        "body": "MC World Compressor (\"we\", \"us\", \"our\") respects your privacy. This Privacy Policy explains how we collect, use, and protect information when you use our service to compress Minecraft Java Edition worlds."
+      },
+      {
+        "heading": "2. Information We Collect",
+        "body": "We collect the minimum information needed to provide the service: (a) the world archive you upload for compression, (b) basic technical data such as IP address, browser type and timestamps, kept only in temporary server logs, and (c) a randomly generated job identifier so you can retrieve your compressed file."
+      },
+      {
+        "heading": "3. How We Use Your Information",
+        "body": "Uploaded files are processed exclusively to perform the compression you requested. We do not inspect, share, sell or analyze the contents of your worlds for any other purpose. Technical data is used to maintain service stability and prevent abuse."
+      },
+      {
+        "heading": "4. Data Retention",
+        "body": "Uploaded and compressed files are stored for up to one hour after compression and are then automatically and permanently deleted from our servers. Server logs are kept for a short period (typically less than 30 days) for security and debugging purposes."
+      },
+      {
+        "heading": "5. Cookies and Advertising",
+        "body": "This site uses Google AdSense to display advertisements. Google and its partners may use cookies to serve ads based on your visits to this and other sites. You can opt out of personalized advertising at any time through Google's Ads Settings or aboutads.info. We do not use additional analytics or marketing cookies beyond those required by AdSense."
+      },
+      {
+        "heading": "6. Third-Party Services",
+        "body": "We rely on the following third parties to operate the site: a hosting provider, Google AdSense for advertising, and standard DNS/CDN services. Each has its own privacy policy. We do not transfer files or personal data to any third party beyond what is strictly necessary to deliver the service."
+      },
+      {
+        "heading": "7. Your Rights",
+        "body": "If you are in the European Economic Area, the United Kingdom, or another jurisdiction with comparable data protection laws, you have rights to access, correct, delete, or restrict the processing of your personal data. Because uploaded files are deleted automatically, most data is already removed within an hour. To exercise any right, contact us using the email below."
+      },
+      {
+        "heading": "8. Children's Privacy",
+        "body": "The service is not directed to children under 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal data, contact us and we will delete it."
+      },
+      {
+        "heading": "9. Changes to This Policy",
+        "body": "We may update this Privacy Policy from time to time. The updated version will be indicated by a new \"Last updated\" date and will be effective when posted."
+      },
+      {
+        "heading": "10. Contact",
+        "body": "For questions about this Privacy Policy or your data, contact us at srkktua@protonmail.com."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated",
+    "effectiveDate": "May 2026",
+    "sections": [
+      {
+        "heading": "1. Acceptance of Terms",
+        "body": "By accessing or using MC World Compressor, you agree to be bound by these Terms of Service. If you do not agree, please do not use the service."
+      },
+      {
+        "heading": "2. Description of Service",
+        "body": "MC World Compressor is a free online tool that reduces the size of Minecraft Java Edition world files by removing unused regions and applying optimized compression. The service is provided as-is, without registration or payment."
+      },
+      {
+        "heading": "3. Acceptable Use",
+        "body": "You agree to upload only files that you own or have permission to compress. You may not upload files that contain malware, illegal content, or copyrighted material you are not authorized to process. You may not abuse the service through automated requests, attempts to overload the system, or attempts to bypass technical limitations."
+      },
+      {
+        "heading": "4. Intellectual Property",
+        "body": "You retain all rights to the world files you upload. We claim no ownership over uploaded or compressed content. The MC World Compressor name, logo and source code are the property of their respective authors and are made available under the project's open-source license on GitHub."
+      },
+      {
+        "heading": "5. Service Availability",
+        "body": "We do our best to keep the service running, but do not guarantee uninterrupted availability. The service may be modified, suspended, or discontinued at any time without prior notice."
+      },
+      {
+        "heading": "6. Disclaimer of Warranties",
+        "body": "The service is provided \"as is\" and \"as available\" without warranties of any kind, whether express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement. Always keep a backup of your original world files before uploading."
+      },
+      {
+        "heading": "7. Limitation of Liability",
+        "body": "To the maximum extent permitted by law, MC World Compressor and its operators shall not be liable for any indirect, incidental, consequential, or punitive damages, including loss of data, arising from your use of or inability to use the service."
+      },
+      {
+        "heading": "8. File Limits",
+        "body": "Uploads are limited to 4 GB per file. Compressed files are stored for up to one hour and are then permanently deleted. We reserve the right to adjust these limits at any time."
+      },
+      {
+        "heading": "9. Changes to These Terms",
+        "body": "We may update these Terms from time to time. Continued use of the service after changes are posted constitutes acceptance of the revised Terms."
+      },
+      {
+        "heading": "10. Governing Law",
+        "body": "These Terms are governed by the laws of Spain, without regard to its conflict-of-law provisions. Any disputes arising from the use of the service shall be resolved in the competent courts of Spain."
+      },
+      {
+        "heading": "11. Contact",
+        "body": "For questions about these Terms, contact us at srkktua@protonmail.com."
+      }
+    ]
+  },
+  "about": {
+    "title": "About MC World Compressor",
+    "intro": "MC World Compressor is a free, open-source tool that helps players reduce the storage footprint of their Minecraft Java Edition worlds without losing any of their progress, builds, or gameplay data.",
+    "sections": [
+      {
+        "heading": "Our Mission",
+        "body": "Long-running Minecraft worlds easily grow to several gigabytes, even when most of the explored map is barely visited. We built MC World Compressor to give players a simple, no-registration way to recover that wasted disk space and to make worlds easier to back up, share, and migrate between machines or servers."
+      },
+      {
+        "heading": "The Problem We Solve",
+        "body": "Minecraft stores terrain in chunks of 16×16 blocks, grouped into region files. As you explore, even briefly visited chunks are persisted to disk forever. A standard ZIP only compresses the existing data; it does not eliminate the unused chunks themselves. The result is worlds that are far larger than they need to be."
+      },
+      {
+        "heading": "How It Works",
+        "body": "Our compressor parses the structure of your world, identifies chunks that have never been edited or that have only been briefly visited, and removes them from the archive. The remaining data is compressed with a modern, fast algorithm. The output is a clean ZIP that Minecraft can read directly, typically about half the size of the original."
+      },
+      {
+        "heading": "Privacy First",
+        "body": "We don't ask for accounts, emails, or payment. Files you upload are processed in memory and on temporary storage, then deleted within one hour. We never inspect or share the contents of your worlds. See our Privacy Policy for full details."
+      },
+      {
+        "heading": "Open Source",
+        "body": "The project is developed openly on GitHub under the MC-World-Compressor organization. You are welcome to read the code, file issues, suggest improvements, or contribute translations to make the tool accessible in more languages."
+      },
+      {
+        "heading": "Get in Touch",
+        "body": "Have feedback, found a bug, or want to contribute? Reach us by email at srkktua@protonmail.com or on Discord at @papela."
+      }
+    ]
+  },
+  "guide": {
+    "title": "Why Minecraft worlds get so large, and how to make them smaller",
+    "intro": "If you have ever zipped a long-running Minecraft world and wondered why the file is several gigabytes, you are not alone. This guide explains how Minecraft stores world data, why files grow so quickly, and what you can do to keep them under control.",
+    "sections": [
+      {
+        "heading": "1. Anatomy of a Minecraft world",
+        "body": "A Minecraft Java world is a folder containing several files and subfolders: level.dat (the main metadata file), the region/ folder for the Overworld, DIM-1/region for the Nether, DIM1/region for the End, plus folders such as data/, playerdata/, and stats/. Most of the disk space lives inside the region folders."
+      },
+      {
+        "heading": "2. Region files and chunks",
+        "body": "Minecraft splits the map into chunks of 16×16 blocks. Chunks are grouped into 32×32 chunk regions, each stored in a single .mca file inside the region folder. As soon as the game generates or loads a chunk, that chunk is written to disk and stays there forever, even if you only flew over it once."
+      },
+      {
+        "heading": "3. Why worlds grow",
+        "body": "Two things make worlds grow quickly: exploration and entities. Every time you explore new territory, hundreds of new chunks are created. Each .mca file can contain up to 1024 chunks, and a single populated region file can easily reach 5–10 MB. A few hours of flying around with Elytra can add several gigabytes of region data."
+      },
+      {
+        "heading": "4. Why a plain ZIP is not enough",
+        "body": "Region files are already compressed internally with zlib. Putting them inside a ZIP only adds a small extra reduction, often less than 5%. To meaningfully shrink a world, you have to remove the chunks you don't need, not just compress them more."
+      },
+      {
+        "heading": "5. Smart compression",
+        "body": "MC World Compressor analyzes each region file, detects chunks that contain no player-made structures and have not been visited recently, and removes them from the archive. Minecraft will simply regenerate those chunks the next time you fly out there, exactly as it did the first time. The visible part of your world stays untouched."
+      },
+      {
+        "heading": "6. How to compress your world step by step",
+        "body": "1) In your Minecraft saves folder, find the world you want to compress. 2) Pack the entire world folder into a .zip, .tar, or .tar.gz archive. File managers on Windows, macOS, and Linux all do this with one click. 3) Open MC World Compressor, drop the archive into the upload area, and press Compress. 4) When the status page shows that processing is complete, you will be redirected to the download page. 5) Replace the original folder in your saves directory with the contents of the new archive."
+      },
+      {
+        "heading": "7. Tips to keep worlds small",
+        "body": "Avoid flying long distances with Elytra unless necessary; use teleports or waystations in modded packs. Set a render distance of 8 or 10 instead of 32 to limit the chunks generated while playing. Periodically run MC World Compressor on your saves, especially before backing up to cloud storage. If you run a server, consider tools that prune unused entities and item frames automatically."
+      },
+      {
+        "heading": "Conclusion",
+        "body": "Minecraft worlds grow because the game keeps every chunk you ever load. You can either ignore the growth and watch your saves balloon into double-digit gigabytes, or you can use a smart compressor to keep them lean. Either way, the most important habit is making backups before any compression or cleanup operation, including ours."
+      }
+    ]
   }
 }
